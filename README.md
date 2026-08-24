@@ -4,13 +4,15 @@ A realtime-ish mock trading app built with Flutter. It demonstrates watchlist ma
 
 ## Run instructions
 
+The project includes the `web/` platform folder, so no extra setup is needed.
+
 ```bash
 cd trading_app
 flutter pub get
-flutter run
+flutter run -d chrome
 ```
 
-> If the platform folders (`android/`, `ios/`, `web/`, etc.) are not present, generate them once with `flutter create .` before running the commands above.
+If you prefer, you can also use `flutter run -d edge` or `flutter run -d web-server --web-port 8080`.
 
 ## Architecture
 
